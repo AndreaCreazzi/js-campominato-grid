@@ -61,4 +61,9 @@ della larghezza delle celle ;
 
 ## Scaletta
 
-1.
+1. Creo una funzione per la cella
+1. Prendiamo gli elementi dal DOM
+1. Prepariamo gli elementi da inserire nel HTML
+1. Creo un ciclo per il numero delle celle
+1. Metto in ascolto il bottone al click
+1. Metto in ascolto le celle al click
