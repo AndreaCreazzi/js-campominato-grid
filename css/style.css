@@ -20,7 +20,7 @@ button{
 }
 /* main */
 main{
-    height: 800px;
+    height: 795px;
     background-color: #7fffd4;
 }
 
@@ -33,13 +33,24 @@ main{
     flex-wrap: wrap;
 }
 
-#cells{
+.cells{
     flex-basis: calc(100% / 10);
     padding: 30px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    color: red;
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-blue{
+    background-color: blue;
 }
 /* footer */
 footer{
