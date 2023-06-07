@@ -29,7 +29,7 @@ for(let i = 1; i<=cellsTotal; i++){
     cellsElement.classList.add(`flex`)
     // celle in ascolto
     cellsElement.addEventListener(`click` , function(){
-        cellsElement.classList.toggle(`bg-blue`)
+        cellsElement.classList.toggle(`bg-yellow`)
     })
     })
     containerElement.appendChild(cellsElement);
